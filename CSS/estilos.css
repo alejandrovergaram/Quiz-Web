@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #000; /* Fondo total de la página */
+}
+
+.container {
+    display: flex;
+    width: 80%; /* Ajuste del ancho del contenedor total */
+    max-width: 1200px; /* Máximo ancho */
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 50%; /* Ajuste para el contenido */
+}
+
+.image-container {
+    flex-basis: 50%; /* Ajuste para la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #E63946; /* Color rojo para el título */
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #E63946;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: block; /* Asegura que el botón no esté inline */
+}
+
+a {
+    color: #d3d3d3;
+    font-size: 0.8rem;
+    margin-top: 10px; /* Espacio sobre el enlace */
+    display: block; /* Asegura que el enlace no esté inline */
+}
+
+
+.features-container {
+    background-color: #E63946; /* Rojo del tema */
+    color: white;
+    padding: 40px 20px; /* Más espacio para un mejor diseño */
+    text-align: center;
+}
+
+.features-container h2 {
+    font-size: 32px; /* Tamaño más grande para el título */
+    margin-bottom: 15px; /* Espacio tras el título */
+}
+
+.intro {
+    font-size: 16px; /* Tamaño más pequeño para el texto introductorio */
+    margin-bottom: 20px; /* Espacio antes de las características */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Alineación vertical */
+}
+
+.feature {
+    width: 20%; /* Ancho de cada característica */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px; /* Altura fija para igualar todos los contenedores */
+}
+
+.feature .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.features-container p, .features-container h3 {
+    color: black; /* Texto negro para coherencia visual */
+}
+
